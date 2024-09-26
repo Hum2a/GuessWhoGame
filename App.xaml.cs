@@ -1,11 +1,22 @@
-﻿namespace GuessWhoGame;
+﻿using Microsoft.Extensions.Logging;
 
-public partial class App : Application
+namespace GuessWhoGame
 {
-	public App()
-	{
-		InitializeComponent();
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+            // Register logging service
+            var services = new ServiceCollection();
+            services.AddLogging(configure => configure.AddDebug());  // Add debug logger
+            var serviceProvider = services.BuildServiceProvider();
+
+            var logger = serviceProvider.GetRequiredService<ILogger<App>>();
+            logger.LogInformation("App initialized");
+
+            MainPage = new AppShell();
+        }
+    }
 }

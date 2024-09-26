@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuessWhoGame.Views.LoginPage"
+             Title="Login">
+
+    <StackLayout Padding="30" Spacing="10">
+        <Label Text="Login Page" FontSize="Large" HorizontalOptions="Center" />
+        
+        <!-- Home Button to Navigate to HomePage -->
+        <Button Text="Go to Home" Clicked="OnHomeButtonClicked" />
+    </StackLayout>
+</ContentPage>

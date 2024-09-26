@@ -5,7 +5,6 @@
              Title="Game">
 
     <StackLayout Padding="30" Spacing="10">
-        <Label Text="Guess Who Game" FontSize="Large" HorizontalOptions="Center" />
-        <!-- Add game content here, such as the character grid -->
+        <Label Text="Game Page" FontSize="Large" HorizontalOptions="Center" />
     </StackLayout>
 </ContentPage>

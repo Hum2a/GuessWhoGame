@@ -42,20 +42,20 @@ build_metadata.AdditionalFiles.ManifestResourceName = GuessWhoGame.Resources.Sty
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Humza/OneDrive/Documents/Programming/Apps/GuessWhoGame/src/Views/GamePage/GamePage.xaml]
+[C:/Users/Humza/OneDrive/Documents/Programming/Apps/GuessWhoGame/Views/GamePage/GamePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = GuessWhoGame.src.Views.GamePage.GamePage.xaml
-build_metadata.AdditionalFiles.TargetPath = src\Views\GamePage\GamePage.xaml
-build_metadata.AdditionalFiles.RelativePath = src\Views\GamePage\GamePage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GuessWhoGame.Views.GamePage.GamePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GamePage\GamePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GamePage\GamePage.xaml
 
-[C:/Users/Humza/OneDrive/Documents/Programming/Apps/GuessWhoGame/src/Views/HomePage/HomePage.xaml]
+[C:/Users/Humza/OneDrive/Documents/Programming/Apps/GuessWhoGame/Views/HomePage/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = GuessWhoGame.src.Views.HomePage.HomePage.xaml
-build_metadata.AdditionalFiles.TargetPath = src\Views\HomePage\HomePage.xaml
-build_metadata.AdditionalFiles.RelativePath = src\Views\HomePage\HomePage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GuessWhoGame.Views.HomePage.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage\HomePage.xaml
 
-[C:/Users/Humza/OneDrive/Documents/Programming/Apps/GuessWhoGame/src/Views/LoginPage/LoginPage.xaml]
+[C:/Users/Humza/OneDrive/Documents/Programming/Apps/GuessWhoGame/Views/LoginPage/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = GuessWhoGame.src.Views.LoginPage.LoginPage.xaml
-build_metadata.AdditionalFiles.TargetPath = src\Views\LoginPage\LoginPage.xaml
-build_metadata.AdditionalFiles.RelativePath = src\Views\LoginPage\LoginPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GuessWhoGame.Views.LoginPage.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage\LoginPage.xaml

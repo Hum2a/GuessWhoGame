@@ -7,9 +7,10 @@
     Shell.FlyoutBehavior="Disabled"
     Title="GuessWhoGame">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <!-- Define the LoginPage as the initial route -->
+    <ShellContent Title="Login" ContentTemplate="{DataTemplate local:LoginPage}" Route="LoginPage" />
 
+    <!-- Define other pages -->
+    <ShellContent Title="Home" ContentTemplate="{DataTemplate local:HomePage}" Route="HomePage" />
+    <ShellContent Title="Game" ContentTemplate="{DataTemplate local:GamePage}" Route="GamePage" />
 </Shell>

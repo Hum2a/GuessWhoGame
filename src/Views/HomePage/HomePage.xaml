@@ -5,7 +5,8 @@
              Title="Home">
 
     <StackLayout Padding="30" Spacing="10">
-        <Label Text="Welcome to Guess Who!" FontSize="Large" HorizontalOptions="Center" />
+        <Label x:Name="WelcomeLabel" FontSize="Large" HorizontalOptions="Center" />
+        <!-- The Start Game Button with event handler -->
         <Button Text="Start Game" Clicked="OnStartGameClicked" />
     </StackLayout>
 </ContentPage>

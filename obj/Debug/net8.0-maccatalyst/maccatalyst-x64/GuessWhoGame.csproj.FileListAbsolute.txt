@@ -299,3 +299,4 @@ C:\Users\Humza\OneDrive\Documents\Programming\Apps\GuessWhoGame\obj\Debug\net8.0
 C:\Users\Humza\OneDrive\Documents\Programming\Apps\GuessWhoGame\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\GuessWhoGame.pdb
 C:\Users\Humza\OneDrive\Documents\Programming\Apps\GuessWhoGame\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\GuessWhoGame.genruntimeconfig.cache
 C:\Users\Humza\OneDrive\Documents\Programming\Apps\GuessWhoGame\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\GuessWhoGame.dll
+C:\Users\Humza\OneDrive\Documents\Programming\Apps\GuessWhoGame\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\GuessWhoGame.sourcelink.json

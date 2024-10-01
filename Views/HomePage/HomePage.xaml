@@ -4,9 +4,41 @@
              x:Class="GuessWhoGame.Views.HomePage"
              Title="Home">
 
-    <StackLayout Padding="30" Spacing="10">
-        <Label x:Name="WelcomeLabel" FontSize="Large" HorizontalOptions="Center" />
-        <!-- The Start Game Button with event handler -->
-        <Button Text="Start Game" Clicked="OnStartGameClicked" />
-    </StackLayout>
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="10">
+
+            <!-- Welcome Label -->
+            <Label x:Name="WelcomeLabel" FontSize="Large" HorizontalOptions="Center" />
+
+            <!-- Main Gameplay Options -->
+            <Button Text="Play Online" Clicked="OnPlayOnlineClicked" />
+            <Button Text="Local Multiplayer" Clicked="OnLocalMultiplayerClicked" />
+
+            <!-- Game Modes -->
+            <Button Text="Practice Mode" Clicked="OnPracticeModeClicked" />
+            <Button Text="How to Play" Clicked="OnHowToPlayClicked" />
+
+            <!-- Social & Connectivity -->
+            <Button Text="Friends" Clicked="OnFriendsClicked" />
+            <Button Text="Leaderboard" Clicked="OnLeaderboardClicked" />
+            <Button Text="Messages" Clicked="OnMessagesClicked" />
+
+            <!-- Customization -->
+            <Button Text="Board Customization" Clicked="OnBoardCustomizationClicked" />
+            <Button Text="Achievements" Clicked="OnAchievementsClicked" />
+
+            <!-- Settings & Profile -->
+            <Button Text="My Profile" Clicked="OnProfileClicked" />
+            <Button Text="Settings" Clicked="OnSettingsClicked" />
+
+            <!-- Monetization / Store -->
+            <Button Text="Store" Clicked="OnStoreClicked" />
+            <Button Text="Daily Rewards" Clicked="OnDailyRewardsClicked" />
+
+            <!-- Miscellaneous -->
+            <Button Text="Help and Support" Clicked="OnHelpAndSupportClicked" />
+            <Button Text="Quit" Clicked="OnQuitClicked" />
+
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

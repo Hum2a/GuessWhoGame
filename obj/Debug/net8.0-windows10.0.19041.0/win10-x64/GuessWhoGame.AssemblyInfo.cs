@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GuessWhoGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+456bc2bc1e488f9296ea044c8adc53dc83b798f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0e2951d143c4db7e717fda1a62beb77af5cb94b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GuessWhoGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GuessWhoGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

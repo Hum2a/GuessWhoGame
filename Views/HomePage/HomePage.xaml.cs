@@ -33,7 +33,7 @@ namespace GuessWhoGame.Views
             _fileLogger.Log("Start Game button clicked");
             try
             {
-                await Shell.Current.GoToAsync("GamePage");
+                await Shell.Current.GoToAsync("//GamePage");
                 _fileLogger.Log("Navigated to GamePage");
             }
             catch (Exception ex)

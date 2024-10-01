@@ -11,7 +11,7 @@ namespace GuessWhoGame.Views
         private async void OnHomeButtonClicked(object sender, EventArgs e)
         {
             // Navigate to HomePage
-            await Shell.Current.GoToAsync("HomePage");
+            await Shell.Current.GoToAsync("//HomePage");
         }
     }
 }

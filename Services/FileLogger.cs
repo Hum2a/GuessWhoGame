@@ -8,14 +8,22 @@ namespace GuessWhoGame.Services
     {
         private readonly string logFilePath;
 
-        public FileLogger(string fileName = "app_log.txt")
+        public FileLogger(string customPath = null, string fileName = "app_log.txt")
         {
-            var logDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Logs");
-            if (!Directory.Exists(logDirectory))
+            // If a custom path is provided, use it; otherwise, default to LocalApplicationData
+            if (!string.IsNullOrEmpty(customPath))
             {
-                Directory.CreateDirectory(logDirectory);
+                logFilePath = Path.Combine(customPath, fileName);
             }
-            logFilePath = Path.Combine(logDirectory, fileName);
+            else
+            {
+                var logDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Logs");
+                if (!Directory.Exists(logDirectory))
+                {
+                    Directory.CreateDirectory(logDirectory);
+                }
+                logFilePath = Path.Combine(logDirectory, fileName);
+            }
         }
 
         public async Task LogAsync(string message)
